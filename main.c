@@ -4,13 +4,13 @@
 const long int ITERATIONS = 250000000;
 
 void normal_division(){
-  int x = 0;
+  int x = 2500000000;
   clock_t start_t, end_t, total_t;
-  printf("\n========== | Teste para 'x = x/2' | ==========\n");
+  printf("\n========== | Teste para 'x = i/2' | ==========\n");
   start_t = clock();
   printf("\nInicio: %ld clock pulses\n", start_t);
   for(int i=0; i< ITERATIONS; i++) {
-     x = i/2;
+     x = x/2;
    }
   end_t = clock();
   printf("Fim: %ld clock pulses\n", end_t);
@@ -22,7 +22,7 @@ void normal_division(){
 }
 
 void division_by_displacement(){
-  int x = 0;
+  int x = 2500000000;
   clock_t start_t, end_t, total_t;
   printf("\n========== | Teste para 'x = x >> 1;' | ==========\n");
   start_t = clock();

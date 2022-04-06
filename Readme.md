@@ -14,14 +14,14 @@ x = x >> 1;
 
   ### Teste para `x = x/2`
 
-  - **Inicio**: `470` clock pulses
-  - **Fim**: `422146` clock pulses
-  - **Diferença**: `421676` clock pulses
+  - **Inicio**: `530` clock pulses
+  - **Fim**: `420744` clock pulses
+  - **Diferença**: `420214` clock pulses
   - **Tempo** total gasto pela CPU: `0s`
 
   ### Teste para `x = x >> 1;`
 
-  - **Inicio**: `422158` clock pulses
-  - **Fim**: `841372` clock pulses
-  - **Diferença**: `419214` clock pulses
+  - **Inicio**: `420756` clock pulses
+  - **Fim**: `833994` clock pulses
+  - **Diferença**: `413238` clock pulses
   - **Tempo** total gasto pela CPU: `0s`
